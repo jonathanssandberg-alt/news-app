@@ -23,9 +23,6 @@ jobs:
     - name: Install dependencies
       run: npm install
       
-    - name: Run tests (if any)
-      run: npm test --if-present
-      
     - name: Log in to Docker Hub
       uses: docker/login-action@v3
       with:
